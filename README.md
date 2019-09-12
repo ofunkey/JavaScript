@@ -9,7 +9,15 @@ There is just one tiny problem though... our collection is too large to search t
 In this project, a javascript code is written to create a table dynamically based upon a dataset provided. Users are allowed to filter the table data for specific values. 
 
 ## Task
-Level 1: Automatic Table and Date Search
+### Level 1: Automatic Table and Date Search
 * Create a basic HTML index web page
-* Using the UFO dataset in the form of an array of JavaScript objects, appends a table to the web page and then add new rows of data for each UFO sighting.
-* Use a date form in your HTML document and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
+* Use the UFO dataset in the form of an array of JavaScript objects, append a table to the web page and then add new rows of data for each UFO sighting.
+* Use a date form in your HTML document and write JavaScript code that listen for events and search through the date/time column to find rows that match user input.
+
+### Level 2: Multiple Search Categories
+* Use multiple input tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+  i.  date/time
+  ii. city
+  iii.  state
+  iv. country
+  v.  shape
